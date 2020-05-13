@@ -466,6 +466,7 @@
       color: #fff;
       display: block;
       padding: 10px 15px;
+      font-size: 35px;
       transition:color 0.5s;
       transition: background .5s;
       transition: transform 0.5s;
@@ -549,7 +550,7 @@
   .project-github h3 > i{
       font-size: 25px;
   }
-@media(max-width: 720px){
+@media(max-width: 768px){
     .grid > ul{
         padding-top: 20vh;
     }
@@ -699,6 +700,19 @@
     }
     .box-container .box{
         width: 80%;
+    }
+    .social-icons{
+        width: 100%;
+    }
+    ul.icons-list{
+        width: 50%;
+    }
+    ul.icon-list li a.fa-instagram{
+        font-size: 20px !important;
+        color: black;
+    }
+    .icons-list li a{
+        font-size: 25px;
     }
 }
 @media(max-width: 450px){
